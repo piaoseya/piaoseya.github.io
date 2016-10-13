@@ -1,0 +1,16 @@
+<nav class="navbar navbar-full navbar-light">
+  <div class="container container-max-width">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <ul class="nav navbar-nav pull-xs-right">
+      <li class="nav-item {% if page.url == '/about/' %} active {% endif %}">
+        <a class="nav-link" href="/about/">about</a>
+      </li>
+      <li class="nav-item {% if page.url == '/works/' %} active {% endif %}">
+        <a class="nav-link" href="/works/">works</a>
+      </li>
+      <li class="nav-item {% if page.url contains 'blog' %} active {% endif %}">
+        <a class="nav-link" href="/blog/" >blog</a>
+      </li>
+    </ul>
+  </div>
+</nav>

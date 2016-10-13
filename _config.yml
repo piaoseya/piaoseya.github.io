@@ -1,0 +1,11 @@
+# Site settings
+title: Hyejeong
+email: iam@hyejeong-park.com
+description: > # this means to ignore newlines until "baseurl:"
+  Personal portfolio site by Hyejeong Park
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://hyejeong-park.com" # the base hostname & protocol for your site
+permalink: /blog/:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown

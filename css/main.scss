@@ -1,0 +1,242 @@
+---
+---
+@charset 'utf-8';
+
+$link-color: #08b9bb;
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Lato', 'Spoqa Han Sans', 'HelveticaNeue', Helvetica, Sans-serif;
+  margin-bottom: 100px;
+  background: #fafafa;
+}
+
+a {
+  color: $link-color;
+
+  &:hover {
+    color: $link-color * 0.7;
+    text-decoration: none;
+  }
+}
+
+code {
+  background-color: #adabab;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  font-weight: bold;
+  background: #fafafa;
+}
+
+.footnotes {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 40px;
+  color: #888;
+
+  ol {
+    padding-left: 15px;
+
+    li p {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+.container-space {
+  margin-top: 50px;
+}
+
+.list-view {
+  margin-bottom: 70px;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 22px;
+  }
+}
+
+.index {
+  margin-top: 30px;
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  p {
+    color: #999;
+    margin-top: 20px;
+  }
+}
+
+.sm-margin-side {
+  margin: 0 1rem;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+figure {
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
+  padding: 10px;
+  background: white;
+  position: relative;
+
+  &:hover figcaption {
+    opacity: 1;
+  }
+}
+
+figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  padding: 20px;
+  background: rgba(255,255,255,0.85);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background: #ddd;
+
+  p {
+    margin-top: 30px;
+  }
+}
+
+.modal-main {
+  text-align: center;
+  margin-bottom: 40px;
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+
+  img {
+    border-radius: 3px;
+  }
+
+  .description {
+    color: #999;
+    margin-top: -10px;
+  }
+}
+
+.main-img-border {
+  img {
+    border: 1px solid #bbb;
+  }
+}
+
+.modal-description {
+  text-align: center;
+  margin: 50px auto;
+
+  img {
+    border: 1px solid #bbb;
+    margin-top: 20px;
+  }
+}
+
+.border-none {
+  padding-bottom: 0;
+  border: none;
+
+  img {
+    border: none;
+  }
+}
+
+.post-list li {
+  list-style: none;
+  background: white;
+  padding: 45px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  opacity: 1;
+  border: 1px solid #eaeaea;
+
+  &:hover {
+    opacity: 0.7;
+    background: #ddd;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+  }
+}
+
+.post-date {
+  margin-bottom: 0.5rem;
+  color: #777;
+}
+
+.post-title {
+  color: black;
+  margin-left: -1px;
+  font-weight: bold;
+}
+
+.post-description {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  color: #777;
+}
+
+.post-content {
+  margin-top: 3.5rem;
+  color: #555;
+}
+
+.post {
+  padding: 30px;
+}
+
+@media (min-width: 544px) {
+  .index h1 {
+    font-size: 3rem;
+  }
+
+  .sm-margin-side {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-max-width {
+    max-width: 940px;
+  }
+}

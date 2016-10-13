@@ -1,0 +1,76 @@
+---
+---
+pre {
+  position: relative;
+  background-color: #232323;
+  overflow-x: scroll;
+  font-size: 13px;
+  color: #e6e1dc;
+  padding: 20px 15px;
+  border-radius: .25rem;
+  line-height: 1.9em;
+
+  code {
+    word-wrap: normal;
+    white-space: pre;
+    overflow-x: auto;
+  }
+  .gd {
+    color: #e6e1dc;
+    background-color: #660000;
+  }
+  .gi {
+    color: #e6e1dc;
+    background-color: #144212;
+  }
+  .c, .c1, .c2 {
+    color: #BC9458;
+    font-style: italic;
+  }
+  .s1, .s2, .s, .sr {
+    color: #b8f361;
+  }
+  .nv {
+    color: #D0D0FF;
+  }
+  .k,.kp {
+    color: #ff9035;
+  }
+  .o {
+    color: #c17b42;
+  }
+  .mi {
+    color: #b8f361;
+  }
+  .ss {
+    color: #76beff;
+  }
+  .si {
+    color: #519F50;
+  }
+  .vi {
+    color: #D0D0FF;
+  }
+  .p {
+    color: #c17b42;
+  }
+  .m {
+    color: #b8f361;
+  }
+  .nb {
+    color: #b8f361;
+  }
+  .mh {
+    color: #D0D0FF;
+  }
+  .nl {
+    color: #76beff;
+  }
+  .nt, .nc, .na {
+    color: #FFC66D;
+  }
+  .cp {
+    color: transparent;
+    visibility: hidden;
+  }
+}
